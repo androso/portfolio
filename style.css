@@ -132,3 +132,14 @@ body {
   font-weight: 500;
 }
 
+/*---- PROJECTS ----*/
+/* Hiding images on mobile*/
+.projects {
+  text-align: center;
+}
+.project__img-container {
+  display: none; 
+}
+.project__title.title {
+  color: red;
+}
