@@ -215,6 +215,23 @@ body {
 	box-shadow: 7px 9px 0px #6ab8b2a9;
 	border-radius: 4px;
 }
+/*---- CONTACT ----*/
+.contact .container {
+  text-align: center;
+}
+.contact__title {
+  font-size: 3rem;
+}
+.contact__text {
+  margin-bottom: var(--sm-margin-bottom);
+}
+.contact a {
+  color: #fafafa;
+  transition: color .3s ease; 
+}
+.contact a:hover {
+  color: var(--outstanding-shadow-text);
+}
 
 @media(min-width: 1024px) {
   .project__img-container {
