@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Anibal Andrade</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -50,11 +51,13 @@
 				</a>
 			</div>
 			<div class="landing learn-more">
-				<i class="fas fa-chevron-down blue-icon"></i>
+        <a href="#about_me">
+          <i class="fas fa-chevron-down blue-icon"></i>  
+        </a>
 			</div>
 		</section>
 		<hr class="sections-separator" />
-		<section class="about">
+		<section class="about" id="about_me">
 			<div class="container">
 				<h2 class="about__title title">About Me</h2>
 				<p class="about__text">
@@ -71,7 +74,7 @@
 					I love having a bird’s eye view of what I'm building, thus my decision
 					to become <span class="highlighted-paragraph">full-stack</span>, I
 					also have a
-					<span class="highlighted-paragraph">blog/garden</span> where I
+					<span class="highlighted-paragraph"><a href="https://blog.androsoa3.repl.co/" target="_blank">blog/garden</a></span> where I
 					write/sow on the things I'm learning/ideas.
 				</p>
 			</div>
@@ -108,6 +111,7 @@
 							<span class="stack__item">Express</span>
 							<span class="stack__item">React</span>
 							<span class="stack__item">Spotify API</span>
+              <span class="stack__item">Vite.js</span>
 							<span class="stack__item">Replit</span>
 							<span class="stack__item styled-components"
 								>Styled Components</span
@@ -157,7 +161,7 @@
 						<p class="project__stack">
 							<span class="stack__item">Vanilla JS</span>
 							<span class="stack__item">CSS</span>
-							<span class="stack__item">Opentdb</span>
+							<span class="stack__item">Opentdb API</span>
 							<span class="stack__item">Replit</span>
 						</p>
 						<div class="project__links-container">
@@ -182,6 +186,53 @@
 						<div class="project__background"></div>
 					</div>
 				</div>
+
+        <div class="project__card">
+					<div class="project__img-container">
+            <a href="https://hangman.androsoa3.repl.co/" target="_blank" title="Live Demo">
+              <img src="./img/hangman-cover.png" alt="The Classic Hangman game" />
+            </a>
+					</div>
+					<div class="project__text-container">
+						<h3 class="project__title">
+							<a href="https://hangman.androsoa3.repl.co/" target="_blank"
+								>Hangman</a
+							>
+						</h3>
+						<p class="project__description">
+              The classic Hangman game, now on browsers with keyboard support and sounds effect, built using react and the canvas API :)
+						</p>
+						<p class="project__stack">
+							<span class="stack__item">React JS</span>
+							<span class="stack__item">CSS</span>
+							<span class="stack__item">Canva Api</span>
+              <span class="stack__item">Vite.js</span>
+							<span class="stack__item">Replit</span>
+              
+						</p>
+						<div class="project__links-container">
+							<a
+								href="https://replit.com/@androsoa3/hangman"
+								target="_blank"
+								alt="Replit source code"
+								title="Replit source code"
+							>
+								<img id="replit-gray-icon" src="./img/replit-gray.svg" />
+							</a>
+							<a href="https://github.com/androso/hangman" target="_blank" title="source code on github"
+								><i class="fab fa-github gray-icon"></i
+							></a>
+							<a
+								href="https://hangman.androsoa3.repl.co/"
+								target="_blank"
+								title="Live Demo"
+								><i class="fas fa-external-link-alt gray-icon"></i
+							></a>
+						</div>
+						<div class="project__background"></div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</section>
 		<hr class="sections-separator" />

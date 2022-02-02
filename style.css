@@ -17,8 +17,15 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+  scroll-behavior: smooth
+}
 a {
 	text-decoration: none;
+  color: var(--outstanding-shadow-text)
+}
+a:hover {
+  text-decoration: underline;
 }
 /* STYLES FOR THE BACKGROUND ANIMATION ;*/
 body {
