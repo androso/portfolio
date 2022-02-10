@@ -10,6 +10,7 @@ export default function Navbar () {
     }
     return (
         <StyledNavbar >
+            {/*
             <div className="navigation-container">  
                 <Link href="/#Home">
                     <a className="navigation-links">Home</a>    
@@ -39,6 +40,9 @@ export default function Navbar () {
                 <span className="toggle-bar"></span>
                 <span className="toggle-bar"></span>
             </button>
+            */}
+
+            
         </StyledNavbar>
     )
 }
