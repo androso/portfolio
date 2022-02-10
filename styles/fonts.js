@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-const fonts = css`
+const Fonts = css`
   @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Regular.ttf') format('ttf');
@@ -30,4 +30,4 @@ const fonts = css`
   }
 `;
 
-export default fonts;
+export default Fonts;
